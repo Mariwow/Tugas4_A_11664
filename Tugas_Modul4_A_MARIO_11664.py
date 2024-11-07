@@ -56,9 +56,9 @@ if uploaded_file is not None:
     #direktori tempat penyimpanan ketiga model yang telah di dump sebelumnya
     # model_directory = r'D:\ATMA\sem 5\Mesin\Unsupervised Learning (Praktek)\Unsupervised Learning (Praktek)\Tugas4_A_11664'
     model_path = {
-        "AGG_model": "./models/AGG_model.pkl",
-        "KMeans_model": "./models/KMeans_model.pkl",
-        "DBSCAN_model": "./models/DBSCAN_model.pkl",
+        "AGG_model" : r'AGG_model.pkl',
+        "KMeans_model" : r'KMeans_model.pkl',
+        "DBSCAN_model" : r'DBSCAN_model.pkl',
     }
     #Load model ketiga model ke dalam dictionary
     models = {}
