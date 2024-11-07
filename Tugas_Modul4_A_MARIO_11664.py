@@ -54,7 +54,7 @@ if uploaded_file is not None:
     st.dataframe(input_data)
 
     #direktori tempat penyimpanan ketiga model yang telah di dump sebelumnya
-    model_directory = r'D:\ATMA\sem 5\Mesin\Unsupervised Learning (Praktek)\Unsupervised Learning (Praktek)\Tugas4_A_11664'
+    # model_directory = r'D:\ATMA\sem 5\Mesin\Unsupervised Learning (Praktek)\Unsupervised Learning (Praktek)\Tugas4_A_11664'
     model_path = {
         "AGG_model" : r'AGG_model.pkl',
         "KMeans_model" : r'KMeans_model.pkl',
